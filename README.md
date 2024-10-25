@@ -11,7 +11,21 @@ Attendance Tracker is a web-based application that calculates and forecasts futu
 <br>
 <b>How It Works:</b>
 <br>
-* Enter Current Data: The user inputs the total number of periods held so far and the number of periods they have attended.
-* Plan Future Attendance with Dates: The user specifies any planned leave dates, rather than a general count of leaves.
-* Enter possible holiday dates if any.
-* Get Attendance Forecast: The app calculates the projected attendance percentage based on the dates provided and helps users make informed decisions about taking leaves.
+<ol>
+<li>
+  
+Enter Current Data: The user inputs the total number of periods held so far and the number of periods they have attended.
+</li>
+<li>
+  
+Plan Future Attendance with Dates: The user specifies any planned leave dates, rather than a general count of leaves.
+</li>
+<li>
+  
+Enter possible holiday dates if any.
+</li>
+<li>
+  Get Attendance Forecast: The app calculates the projected attendance percentage based on the dates provided and helps users make informed decisions about taking leaves.
+</li>
+</ol>
+
