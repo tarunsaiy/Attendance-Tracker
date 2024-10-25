@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" type="image/png" href="logo.png" sizes="32x32">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="h">
+            <img src="logo.png" alt="" height="40px" style="margin-right: 10px;">
+            <p class="title" style="color: rgb(255, 46, 46);">Attendance </p>
+            <p class="title" style="color: rgba(255, 255, 255, 0.71);"> Tracker</p>
+        </div>
+    </header>
+    <div class="content">kj
+        <p style="text-align: center;">Calculate your attendance for next 28 days</p>
+    </div>
+    <div class="omain">
+
+        <div class="periods">
+            <div class="noofperiods">
+                <p style="background-color: #00000000; color: rgb(201, 201, 201);">Number of periods per a day</p>
+                <select class="custom-select">
+                    <option value="7">7</option>
+                    <option value="10">10</option>
+                    <option value="9">9</option>
+                    <option value="8">8</option>
+                    <option value="6">6</option>
+                    <option value="5">5</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+            <div class="posted">
+                <p style="background-color: #00000000; color: rgb(201, 201, 201);">Is today's attendance posted</p>
+                <label class="switch">
+                    <input type="checkbox" id="singleRadio">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+    <main>
+
+        <div class="submain">
+            <div class="div1">
+                <label for="absent">Periods attended</label>
+                <input type="text" id="inp1">
+            </div>
+
+
+            <div class="div2">
+                <label for="presnt">Total periods held</label>
+                <input type="text" id="inp2">
+            </div>
+
+
+            <div class="div3">
+                <label for="leaves">Leave dates</label>
+                <input type="text" id="inp3" placeholder="Eg: 12 15 7">
+            </div>
+
+
+            <div class="div4">
+                <label for="holidays">Holiday dates
+                    <pre style="color: rgba(172, 255, 47, 0.426); font-size: 12px;">(other than sundays)</pre>
+                </label>
+                <input type="text" id="inp4" placeholder="any national holidays">
+            </div>
+            <div class="buttons">
+                <button class="b1">Submit <i class="fa-solid fa-check"
+                        style="color: rgb(0, 0, 0); background-color: #ffffff; border-radius: 40%;"></i></button>
+                <button class="b2">Reset <i class="fa-solid fa-arrows-rotate"
+                        style="color: rgb(255, 255, 255); background-color: #bc000000; border-radius: 100%;"></i></button>
+            </div>
+        </div>
+    </main>
+    <div class="status">
+
+    </div>
+    <div class="foot1">
+        <h2 style="margin-bottom: 30px; margin-left:10px;">Tutorial: </h2>
+        <p style="text-align: center;">1. Make sure about today's attendance. If today's attendence is already updated then turn on the button</p>
+        <img src="IMG_20241002_183526.jpg" alt="" width="280px" class="images">
+        <p style="text-align: center;">2. Only enter dates that you are planning to put leave seperated by space</p>
+        <img src="IMG_20241002_183502.jpg" alt="" width="280px" class="images">
+        <p style="text-align: center;">3. Sundays are by default considered as holidays. Only enter the dates of holiday dates(Eg: National
+            holidays, Second saturdays)</p>
+        <img src="IMG_20241002_183540.jpg" alt="" width="280px" class="images">
+    </div>
+    <div class="foot">
+        <img src="logo.png" alt="" height="50px" width="50px" style="border: 2px solid rgb(255, 255, 255);">
+        <p>email: saikrishnayendava@gmail.com</p>
+    </div>
+
+    <script src="pav.js"></script>
+</body>
+
+</html>
